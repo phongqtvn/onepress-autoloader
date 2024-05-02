@@ -1,0 +1,27 @@
+{
+  "name": "onepress/wpcore-autoloader",
+  "license": "MIT",
+  "description": "An autoloader that enables standard plugins to be required just like must-use plugins",
+  "authors": [
+    {
+      "name": "Onepress",
+      "email": "info@onepress.net",
+      "homepage": "https://github.com/oneweb-vn"
+    }
+  ],
+  "keywords": [
+    "autoloader", "wpcore", "mu-plugin", "must-use", "plugin", "wordpress"
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Onepress\\wpcore\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.0 || ^8.0 || ^9.0",
+    "10up/wp_mock": "^0.4.2"
+  }
+}
